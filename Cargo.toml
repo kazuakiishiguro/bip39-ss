@@ -1,0 +1,13 @@
+[package]
+name = "bip39-ss"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kazuaki Ishiguro <kazuakiishiguro@protonmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bip39 = "1.0.1"
+clap = { version = "3.1.18", features = ["derive"] }
+rand_core = { version = "0.6.3", features = ["getrandom"] }
+thiserror = "1.0.31"
